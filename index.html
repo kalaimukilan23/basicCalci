@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css"/>
+
+    </head>
+    <body>
+        <div class="calculator-bg-container">
+            <h1 class="calculator-head">Basic Calculator</h1>
+            <div class="calculator-container">
+                <div class="value-container">
+                    <p class="value-para" id="valuePara" value=""></p>
+                    
+                </div>
+                <div class="number-and-symbol-button-container">
+                    <div class="number-button-container" id="numBtnContainer">
+                        <button class="num-button" onclick= "addNum(1)">1</button>
+                        <button class="num-button" onclick="addNum(2)">2</button>
+                        <button class="num-button" onclick="addNum(3)">3</button>
+                        <button class="num-button" onclick="addNum(4)">4</button>
+                        <button class="num-button" onclick="addNum(5)">5</button>
+                        <button class="num-button" onclick="addNum(6)">6</button>
+                        <button class="num-button" onclick="addNum(7)">7</button>
+                        <button class="num-button" onclick="addNum(8)">8</button>
+                        <button class="num-button" onclick="addNum(9)">9</button>
+                        <button class="num-button" onclick="addNum(0)">0</button>
+
+                    </div>
+                    <div class="symbols-button-container" id="symbolsBtnContainer">
+                        <button class="symbol-button" onclick="clearAllNum()">AC</button>
+                        <button class="symbol-button" onclick="addSymbolCal('%')">%</button>
+                        <button class="symbol-button" onclick="addSymbolCal('+')">+</button>
+                        <button class="symbol-button" onclick="addSymbolCal('-')">-</button>
+                        <button class="symbol-button" onclick="addSymbolCal('*')">x</button>
+                        <button class="symbol-button" onclick="addSymbolCal('/')">/</button>
+                        <button class="symbol-button" onclick="addNum('.')">.</button>
+                        <button class="symbol-button" onclick="calculate()">=</button>
+
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <script src="calculator1.js"></script>
+
+
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
